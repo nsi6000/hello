@@ -1,0 +1,11 @@
+name: My first workflow
+on: push
+
+jobs:
+        build:
+                name: Tests action
+                runs-on: ubuntu-latest
+                steps:
+                        - uses: actions/checkout@v1
+                        - uses: ./action-tests
+

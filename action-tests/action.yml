@@ -1,0 +1,8 @@
+name: "Run tests"
+description: "run some unit tests"
+author: "nsi6000"
+
+runs:
+        using: "docker"
+        image: "Dockerfile"
+
